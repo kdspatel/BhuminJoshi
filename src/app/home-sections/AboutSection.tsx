@@ -53,12 +53,13 @@ const AboutSection = () => {
                 />
                 Introduction
               </h3>
-              <p>
+    
+              <p className="text-justify leading-[1.35] m-0 hyphens-auto [word-spacing:0px]">
                 Dedicated Professional Photographer with 10 years of experience
                 specializing in highend wedding photography. Expert in capturing
                 authentic candid moments and creating cinematic wedding
                 portraits. Proven mastery in advanced lighting techniques and
-                technical composition, utilizing industry-leading mirrorless
+                technical composition,utilizing industry-leading mirrorless
                 technology to deliver premium visual storytelling for clients
                 and freelance agencies.
               </p>
@@ -77,19 +78,19 @@ const AboutSection = () => {
               </h3>
 
               {/* Links Wrapper */}
-
               <div className="flex gap-3 flex-col lg:flex-row lg:gap-10">
                 {/* Email Address */}
                 <div>
                   <p>Email</p>
-                  <a href="mailto:bhuminjoshi673@gmail.com" className="">
+                  <a href="mailto:bhuminjoshi673@gmail.com">
                     bhuminjoshi673@gmail.com
                   </a>
                 </div>
+
                 {/* Phone Number */}
                 <div>
                   <p>Phone Number</p>
-                  <a href="tel:+919004391614" className="">
+                  <a href="tel:+919004391614">
                     +91 9004391614 / +91 7021103795
                   </a>
                 </div>
@@ -99,10 +100,15 @@ const AboutSection = () => {
               <div className="flex gap-3 justify-between lg:items-center lg:flex-row flex-col flex-wrap">
                 {/* Social Icons */}
                 <SocialIcons />
+
                 <div className="flex gap-4 flex-wrap">
-                  <Link href="" className="primary-btn w-full text-center">
+                  <Link
+                    href="/contact"
+                    className="primary-btn w-full text-center"
+                  >
                     Let’s Work
                   </Link>
+
                   <Link
                     href="/Bhumin Joshi CV.pdf"
                     download="Bhumin_Joshi_CV.pdf"
@@ -137,7 +143,6 @@ const AboutSection = () => {
 
             {/* Item 1 */}
             <div className="relative mb-16">
-              {/* Dot */}
               <motion.span
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -146,7 +151,6 @@ const AboutSection = () => {
                 className="absolute left-[-31px] top-2 w-4 h-4 bg-white rounded-full border-2 border-neutral-900"
               />
 
-              {/* Content */}
               <motion.div
                 initial={{ opacity: 0, x: -80 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -183,7 +187,6 @@ const AboutSection = () => {
 
             {/* Item 2 */}
             <div className="relative mb-16">
-              {/* Dot */}
               <motion.span
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -192,7 +195,6 @@ const AboutSection = () => {
                 className="absolute left-[-31px] top-2 w-4 h-4 bg-white rounded-full border-2 border-neutral-900"
               />
 
-              {/* Content */}
               <motion.div
                 initial={{ opacity: 0, x: -80 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -220,7 +222,6 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );
