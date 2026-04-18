@@ -4,8 +4,8 @@ import { portfolioSectionItems } from "@/src/data/data";
 import PortfolioCard from "@/src/components/PortfolioCard";
 
 const PortfolioSection = () => {
-  // Display only the first 6 portfolio items
-  const featuredPortfolio = portfolioSectionItems.slice(0, 6);
+  // Display only the first 3 portfolio items
+  const featuredPortfolio = portfolioSectionItems.slice(0, 3);
 
   return (
     <section className="section" id="portfolio">
@@ -26,7 +26,7 @@ const PortfolioSection = () => {
               img={item.imgUrl}
               title={item.title}
               date={item.date}
-              slug={item.slug} // Dynamic routing
+              slug={item.slug}
             />
           ))}
         </div>

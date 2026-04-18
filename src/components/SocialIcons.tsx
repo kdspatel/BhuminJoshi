@@ -1,17 +1,30 @@
-import React from 'react'
-import { socialLinks } from '../data/data'
+import React from "react";
+import Link from "next/link";
+import { socialLinks } from "@/src/data/data";
 
 const SocialIcons = () => {
   return (
-    <div className='flex gap-2 border border-neutral-800 max-w-max p-1 rounded-full items-center'>
-      {socialLinks.map((item,index) => (
-        <a href="#" target='_blank' className='w-10 h-10 bg-neutral-800 rounded-full flex items-center justify-center aspect-square hover:bg-neutral-700 transition-colors' key={index}>{<item.icon/>}</a>
-      ))}
-    </div>
-  ) 
-}
+    <div className="flex gap-4">
+      {socialLinks.map((item, index) => {
+        const Icon = item.icon;
 
-export default SocialIcons
+        return (
+          <Link
+            key={index}
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-xl hover:scale-110 transition"
+          >
+            <Icon />
+          </Link>
+        );
+      })}
+    </div>
+  );
+};
+
+export default SocialIcons;
 
 // import React from "react";
 // import { socialLinks } from "../data/data";

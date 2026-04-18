@@ -99,16 +99,14 @@ import Marquee from "../../components/MarqueeSection";
 const HeroSection: React.FC = () => {
   const [startAnimation, setStartAnimation] = useState<boolean>(false);
 
-  // Trigger animation after page load
   useEffect(() => {
     const timer = setTimeout(() => {
       setStartAnimation(true);
-    }, 800); // Delay before animation starts
+    }, 800);
 
     return () => clearTimeout(timer);
   }, []);
 
-  // Parent container animation (stagger effect)
   const containerVariants: Variants = {
     hidden: {
       opacity: 0,
@@ -122,7 +120,6 @@ const HeroSection: React.FC = () => {
     },
   };
 
-  // Child fade-up animation
   const fadeUpVariants: Variants = {
     hidden: {
       opacity: 0,
@@ -149,6 +146,8 @@ const HeroSection: React.FC = () => {
           loop
           muted
           playsInline
+          controls
+          preload="auto"
         />
 
         {/* Overlay */}
@@ -162,7 +161,6 @@ const HeroSection: React.FC = () => {
             initial="hidden"
             animate={startAnimation ? "visible" : "hidden"}
           >
-            {/* Subtitle */}
             <motion.p
               variants={fadeUpVariants}
               className="subtitle text-white mb-2 text-lg sm:text-xl"
@@ -170,18 +168,12 @@ const HeroSection: React.FC = () => {
               Professional Wedding Photographer
             </motion.p>
 
-            {/* Title */}
             <motion.h1
               variants={fadeUpVariants}
               className="text-[40px] sm:text-5xl md:text-6xl font-semibold text-white"
             >
               Bhumin Joshi
             </motion.h1>
-
-            {/* Button */}
-            {/* <motion.div variants={fadeUpVariants} className="mt-5">
-              <Button label="Let's Work Together" />
-            </motion.div> */}
           </motion.div>
         </div>
       </div>

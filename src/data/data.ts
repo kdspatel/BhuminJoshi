@@ -70,13 +70,7 @@ export const marqueeItems = [
     label: "Fine Art Wedding",
   },
   {
-    label: "Event Coverage",
-  },
-  {
-    label: "Landscape Photography",
-  },
-  {
-    label: "Branding Photography",
+    label: "Wedding Event Coverage",
   },
 ];
 
@@ -84,12 +78,15 @@ export const marqueeItems = [
 export const socialLinks = [
   {
     icon: RiFacebookFill,
+    url: "https://www.facebook.com/bhumin.joshi.1",
   },
-  {
-    icon: RiTwitterFill,
-  },
+  // {
+  //   icon: RiTwitterFill,
+  //   url: "https://twitter.com/yourprofile",
+  // },
   {
     icon: RiInstagramFill,
+    url: "https://www.instagram.com/bhuminjoshiphotography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
 ];
 
