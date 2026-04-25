@@ -9,7 +9,7 @@ const MarqueeSection = () => {
     <div className="border border-neutral-900 flex gap-10 justify-center">
       <Marquee pauseOnHover={true}>
         {marqueeItems.map((item, index) => (
-          <div key={index} className=" flex items-center p-5">
+          <div key={index} className=" flex items-center p-5 mx-10">
             <Image
               src={"/images/star.png"}
               alt="shape"

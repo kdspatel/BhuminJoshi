@@ -27,7 +27,16 @@ export const navItems = [
   {
     id: 4,
     label: "Portfolio",
-    path: "/#portfolio",
+    submenu: [
+      {
+        label: "My Work",
+        path: "/#portfolio",
+      },
+      {
+        label: "Freelance Work",
+        path: "/#freelance",
+      },
+    ],
   },
 
   {
@@ -405,6 +414,170 @@ export const portfolioSectionItems = [
       "/images/two-3.png",
       "/images/two-4.png",
       "/images/two-5.png",
+    ],
+  },
+];
+
+// Freelancer
+export const freelanceSectionItems = [
+  {
+    id: 1,
+    imgUrl: "/images/Company-1.png",
+    title: "Dream Events Co.",
+    date: "March 2024",
+    category: "Client Work",
+    description:
+      "A vibrant wedding captured for Dream Events Co., filled with candid emotions, rich traditions, and grand celebrations.",
+    slug: "rohan-aisha-wedding",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 2,
+    imgUrl: "/images/Company-2.png",
+    title: "LensCraft Studio",
+    date: "January 2024",
+    category: "Client Work",
+    description:
+      "A dreamy pre-wedding shoot executed for LensCraft Studio, capturing soft romantic tones and natural chemistry.",
+    slug: "mehul-sneha-prewedding",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 3,
+    imgUrl: "/images/Company-3.jpg",
+    title: "Pixel Agency",
+    date: "February 2024",
+    category: "Client Work",
+    description:
+      "A professional branding shoot for Pixel Agency, focused on clean visuals and strong brand storytelling.",
+    slug: "corporate-brand-shoot",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 4,
+    imgUrl: "/images/Company-4.jpg",
+    title: "Vision Media",
+    date: "December 2023",
+    category: "Client Work",
+    description:
+      "An elegant engagement shoot for Vision Media, capturing joyful moments and intimate emotions in a refined style.",
+    slug: "arjun-kavya-engagement",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 5,
+    imgUrl: "/images/Company-5.jpg",
+    title: "Studio Shodwe",
+    date: "April 2024",
+    category: "Client Work",
+    description:
+      "A high-end fashion editorial created for Studio Shodwe, focusing on bold styling, lighting, and creative direction.",
+    slug: "fashion-editorial-shoot",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 6,
+    imgUrl: "/images/Company-6.jpg",
+    title: "North Creations",
+    date: "May 2024",
+    category: "Client Work",
+    description:
+      "A grand destination wedding with luxurious décor and unforgettable celebrations.",
+    slug: "destination-wedding-goa",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 7,
+    imgUrl: "/images/Company-7.jpg",
+    title: "Focus Frames",
+    date: "June 2024",
+    category: "Client Work",
+    description:
+      "A modern city pre-wedding shoot capturing candid love in urban landscapes.",
+    slug: "urban-prewedding-shoot",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 8,
+    imgUrl: "/images/Company-8.jpg",
+    title: "S-H Photography",
+    date: "July 2024",
+    category: "Client Work",
+    description:
+      "Corporate event coverage with a focus on branding, networking, and professionalism.",
+    slug: "corporate-event-elite",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 9,
+    imgUrl: "/images/Company-9.jpg",
+    title: "Moon Studios",
+    date: "August 2024",
+    category: "Client Work",
+    description:
+      "A traditional wedding shoot highlighting rituals, emotions, and family bonds.",
+    slug: "traditional-wedding-shoot",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
+    ],
+  },
+  {
+    id: 10,
+    imgUrl: "/images/Company-10.jpg",
+    title: "IG Studio",
+    date: "September 2024",
+    category: "Client Work",
+    description:
+      "A candid storytelling shoot capturing real emotions and unscripted moments.",
+    slug: "candid-wedding-story",
+    gallery: [
+      "/images/two-1.png",
+      "/images/two-2.png",
+      "/images/two-3.png",
+      "/images/two-4.png",
     ],
   },
 ];

@@ -6,6 +6,7 @@ import PortfolioSection from './home-sections/PortfolioSection'
 import FAQSection from '../components/FAQSection'
 import BackToTop from '../components/BackToTop'
 import TestimonialsCard from '../components/TestimonialsCard'
+import FreelancerSection from './home-sections/FreelancerSection'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutSection/>
       <ServiceSection/>
       <PortfolioSection/>
+      <FreelancerSection/>
 
       {/* FAQ Section */}
       <section className='section'>
