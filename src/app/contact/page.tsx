@@ -78,8 +78,8 @@ const ContactPage = () => {
         </p>
 
         <div className="mt-8 space-y-1">
-          <p className="text-white">bhuminjoshi673@gmail.com</p>
-          <p className="text-white">+91 9004391614 / +91 7021103795</p>
+          <p className="text-white">yourname@gmail.com</p>
+          <p className="text-white">+91 0000 000000</p>
         </div>
       </div>
 

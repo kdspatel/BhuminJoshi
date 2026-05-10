@@ -244,7 +244,7 @@ const Header = () => {
       <div className="container flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="text-xl font-medium uppercase text-white">
-          B. Studio
+          Pixel Studio
         </Link>
 
         {/* Mobile Navigation */}

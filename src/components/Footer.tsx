@@ -119,7 +119,7 @@ const Footer = () => {
 
         {/* BRAND */}
         <div>
-          <h3 className="text-lg font-light">Bhumin Joshi</h3>
+          <h3 className="text-lg font-light">Your Name</h3>
           <p className="text-sm text-neutral-500 mt-3 max-w-md">
             Cinematic wedding photographer & filmmaker capturing timeless love stories.
           </p>

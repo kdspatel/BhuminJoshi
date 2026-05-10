@@ -32,10 +32,10 @@ export const navItems = [
         label: "My Work",
         path: "/#portfolio",
       },
-      {
-        label: "Freelance Work",
-        path: "/#freelance",
-      },
+      // {
+      //   label: "Freelance Work",
+      //   path: "/#freelance",
+      // },
     ],
   },
 
@@ -87,7 +87,7 @@ export const marqueeItems = [
 export const socialLinks = [
   {
     icon: RiFacebookFill,
-    url: "https://www.facebook.com/bhumin.joshi.1",
+    url: "https://www.facebook.com/",
   },
   // {
   //   icon: RiTwitterFill,
@@ -95,7 +95,7 @@ export const socialLinks = [
   // },
   {
     icon: RiInstagramFill,
-    url: "https://www.instagram.com/bhuminjoshiphotography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    url: "https://www.instagram.com/",
   },
 ];
 
@@ -640,63 +640,63 @@ export const faqItems = [
 export const testimonialItems = [
   {
     id: 1,
-    name: "Riya Sharma",
+    name: "Name 1",
     location: "Mumbai, Maharashtra",
-    text: "The work is truly exceptional. Every detail was handled with care, and the end result exceeded my expectations.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 2,
-    name: "Aditya Singh",
+    name: "Name 2",
     location: "Delhi",
-    text: "A fantastic experience! Professional, creative, and attentive. I would recommend this service to anyone without hesitation.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 3,
-    name: "Meera Patel",
+    name: "Name 3",
     location: "Ahmedabad, Gujarat",
-    text: "Extremely satisfied with the results. The team is very talented and understands exactly what the client needs.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 4,
-    name: "Vikram Rao",
+    name: "Name 4",
     location: "Bangalore, Karnataka",
-    text: "The process was smooth, and the output was outstanding. Truly professional work from start to finish.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 5,
-    name: "Ananya Gupta",
+    name: "Name 5",
     location: "Kolkata, West Bengal",
-    text: "Highly creative and very easy to work with. The final results were beyond what I imagined.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 6,
-    name: "Rohit Mehta",
+    name: "Name 6",
     location: "Pune, Maharashtra",
-    text: "Attention to detail and creative vision made this experience memorable. Highly recommended!",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 7,
-    name: "Sneha Joshi",
+    name: "Name 7",
     location: "Jaipur, Rajasthan",
-    text: "Professional, punctual, and talented! Working with them was a wonderful experience from start to finish.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 8,
-    name: "Arjun Kumar",
+    name: "Name 8",
     location: "Chennai, Tamil Nadu",
-    text: "Absolutely delighted with the results. The work is thoughtful, creative, and very impactful.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 9,
-    name: "Isha Verma",
+    name: "Name 9",
     location: "Lucknow, Uttar Pradesh",
-    text: "The team turned ideas into reality with precision and creativity. Truly a pleasure to work with!",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
   {
     id: 10,
-    name: "Karan Thakur",
+    name: "Name 10",
     location: "Hyderabad, Telangana",
-    text: "An amazing experience! Professionalism and creativity at its best. Couldn’t have asked for better results.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc finibus efficitur.",
   },
 ];
 
@@ -713,27 +713,27 @@ interface Film {
 export const weddingFilms = [
   {
     id: 1,
-    title: "Anil & Bina Wedding",
+    title: "Wedding Video 1",
     location: "Malad",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.",
-    youtubeId: "CoNIg2vf0_w",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    youtubeId: "7fd-2QJv8mY",
   },
   {
     id: 2,
-    title: "Bhumin & Kinjal Wedding",
-    location: "Borivalli",
+    title: "Wedding Video 2",
+    location: "Borivali",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. ",
-    youtubeId: "d_xk0tcyrt8",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    youtubeId: "7fd-2QJv8mY",
   },
   {
     id: 3,
-    title: "Pratik & Roshni Wedding",
+    title: "Wedding Video 3",
     location: "Mumbai",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque. ",
-    youtubeId: "YPolUjLHG4k",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    youtubeId: "7fd-2QJv8mY",
   },
 ];
 
@@ -741,27 +741,27 @@ export const weddingFilms = [
 export const preWeddingFilms = [
   {
     id: 1,
-    title: "Tarang & Aashita",
+    title: "Pre-Wedding Video 1",
     location: "Udaipur",
     description:
       "Captured amidst the royal charm of Udaipur, this pre-wedding film tells a heartfelt story of love, laughter, and timeless romance.",
-    youtubeId: "MkNtgoPr-TE",
+    youtubeId: "7fd-2QJv8mY",
   },
   {
     id: 2,
-    title: "Kevin & Prachi",
+    title: "Pre-Wedding Video 2",
     location: "Jaipur",
     description:
       "A dreamy celebration of love set against the majestic palaces of Jaipur, beautifully portraying a journey toward forever.",
-    youtubeId: "eV8XvqJGNZA",
+    youtubeId: "7fd-2QJv8mY",
   },
   {
     id: 3,
-    title: "Harshita & Rahul",
+    title: "Pre-Wedding Video 3",
     location: "Goa",
     description:
       "A romantic beachside prelude to their wedding, filled with golden sunsets, laughter, and unforgettable memories.",
-    youtubeId: "hopMHZrO7Mw",
+    youtubeId: "7fd-2QJv8mY",
   },
 ];
 

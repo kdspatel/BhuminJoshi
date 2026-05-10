@@ -172,7 +172,7 @@ const HeroSection: React.FC = () => {
               variants={fadeUpVariants}
               className="text-[40px] sm:text-5xl md:text-6xl font-semibold text-white"
             >
-              Bhumin Joshi
+              Your Name
             </motion.h1>
           </motion.div>
         </div>

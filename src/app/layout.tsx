@@ -13,8 +13,9 @@ const manrope  = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Bhumin Joshi",
-  description: "Explore the portfolio of Bhumin Joshi a Professional Wedding Photographer",
+  title: "Pixel Studio",
+  // description: "Explore the portfolio of Bhumin Joshi a Professional Wedding Photographer",
+  description: "Explore the portfolio of Pixel Studio",
 };
 
 export default function RootLayout({

@@ -82,16 +82,16 @@ const AboutSection = () => {
                 {/* Email Address */}
                 <div>
                   <p>Email</p>
-                  <a href="mailto:bhuminjoshi673@gmail.com">
-                    bhuminjoshi673@gmail.com
+                  <a href="mailto:youremail@gmail.com">
+                    youremail@gmail.com
                   </a>
                 </div>
 
                 {/* Phone Number */}
                 <div>
                   <p>Phone Number</p>
-                  <a href="tel:+919004391614">
-                    +91 9004391614 / +91 7021103795
+                  <a href="#">
+                    +91 00000 00000
                   </a>
                 </div>
               </div>
@@ -110,8 +110,9 @@ const AboutSection = () => {
                   </Link>
 
                   <Link
-                    href="/Bhumin Joshi CV.pdf"
-                    download="Bhumin_Joshi_CV.pdf"
+                    href="#"
+                    // href="/Bhumin Joshi CV.pdf"
+                    // download="Bhumin_Joshi_CV.pdf"
                     className="primary-btn w-full text-center"
                   >
                     Download CV
@@ -161,25 +162,34 @@ const AboutSection = () => {
                   Founder & Lead Photographer
                 </h4>
                 <p className="text-sm opacity-70">
-                  Bhumin Joshi Photography | 2016 – Present
+                  {/* Bhumin Joshi Photography | 2016 – Present */}
+                  Any Detail
                 </p>
 
                 <ul className="mt-3 space-y-2 opacity-80 list-disc pl-5">
                   <li>
-                    Manage and lead full-scale wedding photography projects,
-                    from pre-wedding shoots to main-day coverage.
+                    {/* Manage and lead full-scale wedding photography projects,
+                    from pre-wedding shoots to main-day coverage. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                   <li>
-                    Specialize in candid photography, focusing on emotional
-                    storytelling and in-between moments.
+                    {/* Specialize in candid photography, focusing on emotional
+                    storytelling and in-between moments. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                   <li>
-                    Execute high-fashion wedding portraits using creative
-                    lighting and specialized lenses.
+                    {/* Execute high-fashion wedding portraits using creative
+                    lighting and specialized lenses. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                   <li>
-                    Oversee all post-production workflows to ensure a
-                    consistent, professional brand aesthetic.
+                    {/* Oversee all post-production workflows to ensure a
+                    consistent, professional brand aesthetic. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                 </ul>
               </motion.div>
@@ -205,17 +215,22 @@ const AboutSection = () => {
                   Freelance Photographer
                 </h4>
                 <p className="text-sm opacity-70">
-                  Various Clients / Agencies | 2016 – Present
+                  {/* Various Clients / Agencies | 2016 – Present */}
+                  Any Details
                 </p>
 
                 <ul className="mt-3 space-y-2 opacity-80 list-disc pl-5">
                   <li>
-                    Collaborate with diverse teams to provide specialized
-                    coverage for luxury weddings and events.
+                    {/* Collaborate with diverse teams to provide specialized
+                    coverage for luxury weddings and events. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                   <li>
-                    Adapt quickly to different lighting environments and client
-                    requirements.
+                    {/* Adapt quickly to different lighting environments and client
+                    requirements. */}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vel sapien eget nunc finibus efficitur.
                   </li>
                 </ul>
               </motion.div>
